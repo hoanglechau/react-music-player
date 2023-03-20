@@ -10,7 +10,7 @@ export default function TrackList() {
       {trackList.map((track, index) => (
         <button
           type="button"
-          className="strack-btn"
+          className="track-btn"
           key={uniqid()}
           onClick={() => {
             playTrack(index);
